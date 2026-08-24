@@ -1,0 +1,60 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build outputs
+**/dist/
+
+# env / secrets
+.env
+.env.local
+.env.*.local
+
+# Claude Code（ローカル設定）
+.claude/*
+!.claude/CLAUDE.md
+CLAUDE.local.md
+
+# 共通原本から生成する agent skills
+.agents/skills/
+
+# ローカル生成物・作業用
+docs/tmp/
+scripts/tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# C/C++ build artifacts
+*.o
+*.obj
+*.exe
+*.pdb
+*.ilk
+*.idb
+*.pch
+*.tlog
+*.lastbuildstate
+
+# Build directories
+build/
+out/
+Debug/
+Release/
+x64/
+x86/
+
+# Visual Studio local state
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+ipch/
+
+# VS Code machine-local configuration
+.vscode/c_cpp_properties.json
+
+# Runtime logs
+*.log
